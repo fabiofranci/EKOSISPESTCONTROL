@@ -1,7 +1,7 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="it.firenzewebdivision.lspc5" version="1.0.2">
-  <name>LSPC5</name>
-  <description>La saetta pest control app 5.</description>
-  <author href="http://www.firenzewebdivision.it" email="fabio.franci@gmail.com">Fabio Franci</author>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="it.studioweb19.ekosispestcontrol" version="1.0">
+  <name>EKOSIS PEST CONTROL</name>
+  <description>EKOSIS PEST CONTROL</description>
+  <author href="http://www.studioweb19.it" email="fabio.franci@gmail.com">Fabio Franci</author>
   <content src="index.html"/>
   <preference name="permissions" value="none"/>
   <preference name="orientation" value="default"/>
