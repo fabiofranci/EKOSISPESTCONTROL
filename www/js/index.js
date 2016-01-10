@@ -761,9 +761,12 @@ function onDeviceReady() {
     function getPostazioniIncrement(righeselect,k,i) {
         var j=righeselect.length;
         console.log("Dentro GetPostazioniIncrement, j="+j+" k="+k);
+        if (righeselect[k]=="") {
+            righeselect[k]="SELECT * FROM LOCAL_POSTAZIONI";
+        }
         db.transaction(
             function (tx3) {
-                alert("DEBUG:"+righeselect[k]);
+                //alert("DEBUG:"+righeselect[k]);
                 tx3.executeSql(righeselect[k]);
             },
             onDbError1,
