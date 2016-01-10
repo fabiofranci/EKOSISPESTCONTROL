@@ -1,6 +1,6 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="it.studioweb19.ekosispestcontrol" version="1.0">
-  <name>EKOSIS PEST CONTROL</name>
-  <description>EKOSIS PEST CONTROL</description>
+  <name>EKOSIS PC</name>
+  <description>EKOSIS Pest Control System</description>
   <author href="http://www.studioweb19.it" email="fabio.franci@gmail.com">Fabio Franci</author>
   <content src="index.html"/>
   <preference name="permissions" value="none"/>
