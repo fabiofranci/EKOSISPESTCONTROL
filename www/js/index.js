@@ -321,6 +321,12 @@ function onDeviceReady() {
     function onDbError1(error) {
         alert("Errore database 1 " + error.message);
     }
+    function onDbError2(error) {
+        alert("Errore database 2 " + error.message);
+    }
+    function onDbError3(error) {
+        alert("Errore database 3 " + error.message);
+    }
 
     function onDbOpenSuccess() {
         //alert("Ok db creato e connesso");
@@ -761,7 +767,7 @@ function onDeviceReady() {
                 //alert("DEBUG:"+righeselect[k]);
                 tx3.executeSql(righeselect[k]);
             },
-            onDbError,
+            onDbError1,
             function () {
 
                 if (k+1==j) {
@@ -806,7 +812,7 @@ function onDeviceReady() {
                         function (tx3) {
                             tx3.executeSql(rigaselect);
                         },
-                        onDbError,
+                        onDbError2,
                         function () {
                             //alert(i+" clienti inseriti");
 
@@ -886,7 +892,7 @@ function onDeviceReady() {
                         function (tx3) {
                             tx3.executeSql(rigaselect);
                         },
-                        onDbError,
+                        onDbError3,
                         function () {
                             //alert(i+" clienti inseriti");
 
