@@ -761,7 +761,6 @@ function onDeviceReady() {
     function getPostazioniIncrement(righeselect,k,i) {
         var j=righeselect.length;
         console.log("Dentro GetPostazioniIncrement, j="+j+" k="+k);
-        //console.log("COMANDO:"+righeselect[k]);
         db.transaction(
             function (tx3) {
                 alert("DEBUG:"+righeselect[k]);
